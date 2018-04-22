@@ -27,6 +27,6 @@ jobs:
             git config --global user.name $CIRCLE_USERNAME
             git add docs/
             if ! git diff-index --quiet HEAD; then
-              git commit -m "Deploy build $CIRCLE_BUILD_NUM"
+              git commit -m "Deploy build $CIRCLE_BUILD_NUM [ci skip]"
               git push
             fi
