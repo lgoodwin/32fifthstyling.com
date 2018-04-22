@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: 'circleci/ubuntu-server'
+      - image: 'circleci/golang'
     steps:
       - add_ssh_keys:
           fingerprints:
