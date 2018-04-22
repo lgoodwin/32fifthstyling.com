@@ -26,5 +26,7 @@ jobs:
             git config --global user.email $(git --no-pager show -s --format='%ae' HEAD)
             git config --global user.name $CIRCLE_USERNAME
             git add docs/
-            git commit -m "Deploy build $CIRCLE_BUILD_NUM"
-            git push
+            if ! git diff-index --quiet HEAD; then
+              git commit -m "Deploy build $CIRCLE_BUILD_NUM"
+              git push
+            fi
