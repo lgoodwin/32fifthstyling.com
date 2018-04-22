@@ -1,6 +1,6 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hugo Creative Theme"
+title = "32 Fifth Styling"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
@@ -20,7 +20,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add some
   # information about you and your website.
-  name = "Your name"
+  name = "32 Fifth Styling"
   description = "Your description"
 
   # The path must be relative to the static folder
