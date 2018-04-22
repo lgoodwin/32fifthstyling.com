@@ -2,7 +2,7 @@ baseurl = "https://www.32fifthstyling.com/"
 languageCode = "en-us"
 title = "32 Fifth Styling"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-118016125-1"
 
 [params]
 
