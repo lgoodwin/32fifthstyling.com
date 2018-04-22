@@ -3,9 +3,9 @@ version: 2.0
 jobs:
   build:
     steps:
-      # - add_ssh_keys:
-      #   fingerprints:
-      #     - ""
+      - add_ssh_keys:
+        fingerprints:
+          - "57:c4:1e:22:83:d1:12:c7:84:b6:15:e5:2b:b5:98:c5"
       - checkout
       - run:
           name: Install Hugo
