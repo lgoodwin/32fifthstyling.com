@@ -3,18 +3,24 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang
+      - image: 'ubuntu:16.04'
     steps:
       - add_ssh_keys:
-        fingerprints:
-          - "57:c4:1e:22:83:d1:12:c7:84:b6:15:e5:2b:b5:98:c5"
+          fingerprints:
+            - '57:c4:1e:22:83:d1:12:c7:84:b6:15:e5:2b:b5:98:c5'
       - checkout
       - run:
-          name: Install Hugo
-          command: wget https://github.com/gohugoio/hugo/releases/download/v0.39/hugo_0.39_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
+          name: 'Install Hugo'
+          command: |
+            wget https://github.com/gohugoio/hugo/releases/download/v0.39/hugo_0.39_Linux-64bit.deb -O /tmp/hugo.deb
+            sudo dpkg -i /tmp/hugo.deb
       - run:
-          name: Build site
-          command: hugo version && hugo
+          name: 'Build site'
+          command: |
+            hugo version
+            hugo
       - deploy:
-          name: Deploy to GitHub Pages
-          command: git commit -am "Deploy build $CIRCLE_BUILD_NUM" && git push
+          name: 'Deploy to GitHub Pages'
+          command: |
+            git commit -am "Deploy build $CIRCLE_BUILD_NUM"
+            git push
