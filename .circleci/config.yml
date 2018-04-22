@@ -1,0 +1,18 @@
+version: 2.0
+
+jobs:
+  build:
+    steps:
+      # - add_ssh_keys:
+      #   fingerprints:
+      #     - ""
+      - checkout
+      - run:
+          name: Install Hugo
+          command: wget https://github.com/gohugoio/hugo/releases/download/v0.39/hugo_0.39_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
+      - run:
+          name: Build site
+          command: hugo version && hugo
+      - deploy:
+          name: Deploy to GitHub Pages
+          command: git commit -am "Deploy build $CIRCLE_BUILD_NUM" && git push
