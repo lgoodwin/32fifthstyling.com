@@ -59,23 +59,23 @@ googleAnalytics = "UA-118016125-1"
 
         [[params.services.list]]
             icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+            title = "Closet Edit"
+            description = "Stop saying "I have nothing to wear" and learn to love everything in your closet!"
 
         [[params.services.list]]
       icon = "fa-paper-plane"
-      title = "Ready to Ship"
-      description = "You can use this theme as is, or you can make changes!"
+      title = "Personal Shopping"
+      description = "Shopping that's actually effective!"
 
     [[params.services.list]]
             icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+            title = "Style & Color Analysis"
+            description = "Learn what actually looks good on you."
 
         [[params.services.list]]
             icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+            title = "Event & Occasion Styling"
+            description = "Make sure your look reflects how proud you are of your milestone."
 
 
     # Portfolio modals
