@@ -21,7 +21,7 @@ googleAnalytics = "UA-118016125-1"
   # To provide some metadata for search engines feel free to add some
   # information about you and your website.
   name = "32 Fifth Styling"
-  description = "Your description"
+  description = "A full service styling, personal shopping, and image consultation firm"
 
   # The path must be relative to the static folder
   favicon = "favicon.ico"
@@ -98,9 +98,3 @@ googleAnalytics = "UA-118016125-1"
     headline = "Let's Get In Touch!"
     description = "Have a question? Interested in working together? Just want to say hello? That's great! Email me and I will get back to you within 48 hours.
     email = "mailto:lauren@32fifthstyling.com"
-
-  # Google Maps section
-  # [params.location]
-  #   latitude  = "34.007850"
-  #   longitude = "-118.499305"
-  #   maps_api_key = ""
