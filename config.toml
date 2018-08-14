@@ -97,7 +97,7 @@ googleAnalytics = "UA-118016125-1"
   [params.contact]
     headline = "Let's Get In Touch!"
     description = "Have a question? Interested in working together? Just want to say hello? That's great! Email me and I will get back to you within 48 hours.
-    email = "lauren@32fifthstyling.com"
+    email = "mailto:lauren@32fifthstyling.com"
 
   # Google Maps section
   # [params.location]
