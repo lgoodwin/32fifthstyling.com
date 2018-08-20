@@ -63,7 +63,7 @@ googleAnalytics = "UA-118016125-1"
             description = "Stop claiming you have nothing to wear and learn to love everything in your closet!"
 
         [[params.services.list]]
-      icon = "fa-paper-plane"
+      icon = "fa-shopping-bag"
       title = "Personal Shopping"
       description = "Shopping that's actually effective!"
 
