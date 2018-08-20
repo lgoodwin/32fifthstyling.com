@@ -29,7 +29,7 @@ googleAnalytics = "UA-118016125-1"
 
   # Navigation
   [params.navigation]
-    brand = "Hugo Creative Theme"
+    brand = "32 Fifth Styling"
 
     [params.navigation.links]
       about     = "About"
