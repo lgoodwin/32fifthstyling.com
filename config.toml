@@ -87,7 +87,7 @@ googleAnalytics = "UA-118016125-1"
 
     # Aside section
   [params.aside]
-    headline = "Tell Me About Your Personal Style"
+    headline = "Learn More About Services & Pricing"
 
     [params.aside.button]
       text = "Download now"
