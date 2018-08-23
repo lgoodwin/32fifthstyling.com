@@ -74,8 +74,8 @@ googleAnalytics = "UA-118016125-1"
 
         [[params.services.list]]
             icon = "fa-heart"
-            title = "Event & Occasion Styling"
-            description = "Make sure your look reflects how proud you are of your milestone."
+            title = "Event Styling"
+            description = "Develop a look that makes you feel confident in those important moments.."
 
 
     # Portfolio modals
