@@ -87,7 +87,7 @@ googleAnalytics = "UA-118016125-1"
 
     # Aside section
   [params.aside]
-    headline = "Get the Creative Theme for Hugo"
+    headline = "Get a Free Blank Shopping List to Start Filling in the Gaps in Your Closet"
 
     [params.aside.button]
       text = "Download now"
