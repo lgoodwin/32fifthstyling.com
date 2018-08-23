@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #061950;
+    border-color: #f05f40;
     border-width: 3px;
 }
 
@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #061950;
 }
 
 #about a {
