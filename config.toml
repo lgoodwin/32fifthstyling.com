@@ -60,22 +60,22 @@ googleAnalytics = "UA-118016125-1"
         [[params.services.list]]
             icon = "fa-diamond"
             title = "Closet Edit"
-            description = "Stop claiming you have nothing to wear and learn to love everything in your closet!"
+            description = "Stop claiming you have nothing to wear and learn to love everything in your closet"
 
         [[params.services.list]]
       icon = "fa-shopping-bag"
       title = "Personal Shopping"
-      description = "Shopping that's actually effective!"
+      description = "Shopping that's actually effective"
 
     [[params.services.list]]
             icon = "fa-newspaper-o"
             title = "Style & Color Analysis"
-            description = "Learn what actually looks good on you."
+            description = "Learn what actually looks good on you"
 
         [[params.services.list]]
             icon = "fa-heart"
             title = "Event Styling"
-            description = "Develop a look that makes you feel confident in those important moments."
+            description = "Develop a look that makes you feel confident in those important moments"
 
 
     # Portfolio modals
