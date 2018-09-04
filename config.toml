@@ -58,7 +58,7 @@ googleAnalytics = "UA-118016125-1"
     headline = "At your service"
 
         [[params.services.list]]
-            icon = "fa-tshirt"
+            icon = "fa-diamond"
             title = "Closet Edit"
             description = "Stop claiming you have nothing to wear and learn to love everything in your closet"
 
