@@ -91,7 +91,7 @@ googleAnalytics = "UA-118016125-1"
 
     [params.aside.button]
       text = "Download now"
-      link = "32fifthstyling.com/32 Fifth Service Guide.pdf"
+      link = "32fifthstyling.com/docs/32 Fifth Services (updated).pdf"
 
      # Contact section
    [params.contact]
