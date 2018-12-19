@@ -5,6 +5,7 @@ theme = "hugo-creative-theme"
 googleAnalytics = "UA-118016125-1"
 
 [params]
+  custom_css = ["css/32fifthstyling.css"]
 
   # You can use Markdown syntax for urls [text](//url.to/source) for
   # most longer texts.
